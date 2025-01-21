@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+:root {
+  --btn-color-one: orange;
+  --btn-color-two: black;
+  --color-one: #01acfd;
+  --color-two: #05d4df;
+  --color-three: #5d58ef;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-tittle {
+  display: flex;
+  align-items: center;
+}
+
+.menus {
+  display: flex;
+  align-items: center;
+}
+
+.menus li {
+  list-style: none;
+  padding: 10px;
+}
+
+.list-item1 {
+  color: var(--btn-color-one);
+}
+.list-item2 {
+  color: var(--color-one);
+}
+.list-item3 {
+  color: var(--color-two);
+}
+.list-item4 {
+  color: var(--color-three);
+}
+
+.btn {
+  padding: 10px 45px 10px 45px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+.nav-btn {
+  background-color: var(--btn-color-one);
+}
+
+/* End of Navber */
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mark-text-one {
+  color: var(--btn-color-one);
+}
+.mark-text-two {
+  color: var(--color-one);
+}
+
+.btn-two {
+  background-color: var(--btn-color-two);
+  margin-top: 15px;
+}
+
+.hero-tittle p {
+  margin-top: 15px;
+}
+.hero-tittle h1 {
+  line-height: 1.1;
+  font-size: 55px;
+}
