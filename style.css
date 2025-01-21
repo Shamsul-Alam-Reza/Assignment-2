@@ -87,3 +87,114 @@
   line-height: 1.1;
   font-size: 55px;
 }
+
+/* End of hero section */
+
+.standard-container {
+  background-image: url(./assets/bg.png);
+
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.standard-container-width {
+  width: 80%;
+  margin: 0 auto;
+}
+.boxes {
+  margin-top: 55px;
+  display: flex;
+  gap: 25px;
+  margin-bottom: 55px;
+}
+
+.box-1 {
+  text-align: center;
+  padding: 45px 25px 45px 25px;
+  border-radius: 10px;
+  background: linear-gradient(
+      180deg,
+      rgb(222, 245, 255),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  border: 0.94px solid rgb(222, 245, 255);
+  font-weight: 500;
+}
+
+.box-2 {
+  box-sizing: border-box;
+  border: 0.94px solid rgb(255, 244, 220);
+  text-align: center;
+  padding: 45px 25px 45px 25px;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(
+      180deg,
+      rgb(255, 244, 220),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+}
+.box-3 {
+  box-sizing: border-box;
+  border: 0.94px solid rgb(242, 232, 255);
+  text-align: center;
+  padding: 45px 25px 45px 25px;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(
+      180deg,
+      rgb(238, 225, 255),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+}
+.box-1 a {
+  text-decoration: none;
+  color: var(--color-one);
+}
+.box-2 a {
+  color: var(--btn-color-one);
+}
+.box-3 a {
+  color: var(--color-three);
+}
+.box-1 p {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.box-1 h1 {
+  margin-top: 20px;
+}
+
+/* End of standard section */
+.stories-container {
+  background-image: url(./assets/bg.png),
+    linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.stories-container-width {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.story-boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 5px;
+}
+
+.story-box1 {
+  grid-column: 1;
+  grid-row: 1/3;
+}
