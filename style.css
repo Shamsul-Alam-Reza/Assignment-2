@@ -250,7 +250,7 @@ marquee {
 .story-box4 img,
 .story-box5 img {
   width: 100%;
-  flex: 1;
+
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -295,7 +295,7 @@ marquee {
   padding: 10px 25px 10px 25px;
   background-color: black;
   color: white;
-  border-radius: 20px;
+  border-radius: 10px;
   text-align: center;
   cursor: pointer;
 }
