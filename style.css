@@ -72,11 +72,17 @@
   background-color: var(--btn-color-one);
 }
 
-hr {
+.nav-container {
+  margin-top: 5px;
+  border: 1px solid var(--btn-color-one);
+  padding-bottom: 5px;
+}
+
+/* hr {
   margin-top: 10px;
   background-color: var(--btn-color-one);
   border: 1px solid var(--btn-color-one);
-}
+} */
 
 /* End of Navber */
 
@@ -411,5 +417,11 @@ marquee {
   }
   hr {
     display: none;
+  }
+  .nav-container {
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
   }
 }
