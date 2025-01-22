@@ -193,7 +193,11 @@ hr {
 .box-1 h1 {
   margin-top: 20px;
 }
-
+.icons img:hover {
+  background-color: #01acfd;
+  border-radius: 50%;
+  box-shadow: 3px 3px 3px salmon;
+}
 /* End of standard section */
 .stories-container {
   background-image: url(./assets/bg.png),
