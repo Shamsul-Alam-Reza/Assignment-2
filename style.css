@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -16,6 +25,7 @@
 }
 
 .nav-container {
+  padding-top: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -60,6 +70,11 @@
 
 .nav-btn {
   background-color: var(--btn-color-one);
+}
+
+hr {
+  margin-top: 10px;
+  background: var(--btn-color-one);
 }
 
 /* End of Navber */
@@ -156,6 +171,9 @@
       rgba(255, 255, 255, 0) 40%
     ),
     rgb(255, 255, 255);
+}
+.box-1 > h1 {
+  font-size: 30px;
 }
 .box-1 a {
   text-decoration: none;
@@ -280,6 +298,9 @@ marquee {
   text-align: center;
   cursor: pointer;
 }
+.btn-unique {
+  background-color: blue;
+}
 /*
 .story-box1 img {
   grid-column: 1;
@@ -316,6 +337,9 @@ marquee {
 .footer-contact img {
   padding-right: 10px;
 }
+.footer-info > p {
+  padding-top: 10px;
+}
 
 /* For Responsive */
 
@@ -335,6 +359,10 @@ marquee {
   }
   .hero-tittle {
     text-align: center;
+  }
+  .hero-tittle > h1 {
+    font-size: 40px;
+    padding-top: 20px;
   }
   .boxes {
     margin-top: 55px;
@@ -374,6 +402,9 @@ marquee {
 }
 @media only screen and (min-width: 600px) {
   .heroic-icon {
+    display: none;
+  }
+  hr {
     display: none;
   }
 }
