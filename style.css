@@ -74,7 +74,8 @@
 
 hr {
   margin-top: 10px;
-  background: var(--btn-color-one);
+  background-color: var(--btn-color-one);
+  border: 1px solid var(--btn-color-one);
 }
 
 /* End of Navber */
@@ -400,7 +401,7 @@ marquee {
     margin-left: 0px;
   }
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 577px) {
   .heroic-icon {
     display: none;
   }
